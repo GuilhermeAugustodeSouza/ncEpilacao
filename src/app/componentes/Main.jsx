@@ -24,18 +24,19 @@ export default function Main() {
 
         <div className={estilos.card}>
           <Image src={imagem2} alt={"Agente Epiladora"} />
-          <h2>Chega de pelos!</h2>
+          <h2>Epilação segura e eficaz!</h2>
           <p>
             {" "}
-            Livre-se dos pelos indesejados com o método mais moderno e
-            tecnológico do mercado.
+           Sua pele merece esse cuidado!
+           Pele lisinha o ano todo.
+           Adeus pelos, olá liberdade.
           </p>
           <button>Chamar no Whatsapp</button>
         </div>
 
         <div className={estilos.card}>
           <Image src={imagem3} alt={"Agente Epiladora"} />
-          <h2>Chega de pelos!</h2>
+          <h2>Seu momento de autocuidado</h2>
           <p>
             {" "}
             Livre-se dos pelos indesejados com o método mais moderno e
@@ -46,7 +47,7 @@ export default function Main() {
 
         <div className={estilos.card}>
           <Image src={imagem4} alt={"Agente Epiladora"} />
-          <h2>Chega de pelos!</h2>
+          <h2>Menos dor, mais conforto!</h2>
           <p>
             {" "}
             Livre-se dos pelos indesejados com o método mais moderno e
