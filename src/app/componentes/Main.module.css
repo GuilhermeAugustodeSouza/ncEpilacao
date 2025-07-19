@@ -1,0 +1,36 @@
+.containerMain {
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+ padding:15px;
+
+
+}
+.containerCard{
+  display:flex;
+  flex-wrap: wrap;
+  gap:16px;
+  justify-content: space-around;
+}
+
+
+.card {
+ flex:1 1 200px;
+ flex-wrap: wrap;
+  gap: 10px;
+ 
+  border-radius:8px;
+
+  font-size: 18px;
+  text-align: center;
+  background-color: #f5f5f5;
+  box-shadow:1px 1px 6px gray;
+
+}
+.containerMain img {
+  width: 100%;
+  height: 50vh;
+}
