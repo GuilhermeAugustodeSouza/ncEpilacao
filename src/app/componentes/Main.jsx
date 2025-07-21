@@ -1,10 +1,20 @@
+'use client'
+import React from 'react';
 import estilos from "./Main.module.css";
 import Image from "next/image";
 import imagem1 from "./../../../public/1752859044108.jpg";
 import imagem2 from "./../../../public/download (1).jpg";
 import imagem3 from "./../../../public/Full body waxing_.jpg";
 import imagem4 from "./../../../public/ceraQuente.jpg";
+import Link from 'next/link';
 export default function Main() {
+
+  function botaoWhatsapp(){
+    const numero='5531992085131';
+    const mensagem= 'Olá, gostaria de mais informações!';
+    const url= `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+    window.open(url, '_blank');
+  }
   return (
 
     <div className={estilos.containerMain}>
@@ -19,7 +29,7 @@ export default function Main() {
             Livre-se dos pelos indesejados com o método mais moderno e
             tecnológico do mercado.
           </p>
-          <button>Chamar no Whatsapp</button>
+          <button onClick={botaoWhatsapp}>Whatsapp</button>
         </div>
 
         <div className={estilos.card}>
@@ -31,7 +41,7 @@ export default function Main() {
            Pele lisinha o ano todo.
            Adeus pelos, olá liberdade.
           </p>
-          <button>Chamar no Whatsapp</button>
+          <button onClick={botaoWhatsapp}>Whatsapp</button>
         </div>
 
         <div className={estilos.card}>
@@ -42,7 +52,7 @@ export default function Main() {
             Livre-se dos pelos indesejados com o método mais moderno e
             tecnológico do mercado.
           </p>
-          <button>Chamar no Whatsapp</button>
+          <button onClick={botaoWhatsapp}>Whatsapp</button>
         </div>
 
         <div className={estilos.card}>
@@ -53,7 +63,7 @@ export default function Main() {
             Livre-se dos pelos indesejados com o método mais moderno e
             tecnológico do mercado.
           </p>
-          <button>Chamar no Whatsapp</button>
+          <button onClick={botaoWhatsapp}>Whatsapp</button>
         </div>
 
       </div>
