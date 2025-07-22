@@ -18,6 +18,9 @@ export default function Main() {
   return (
 
     <div className={estilos.containerMain}>
+     <div className={estilos.boxText}>
+
+     </div>
 
       <div className={estilos.containerCard}>
 
@@ -27,7 +30,7 @@ export default function Main() {
           <p>
             {" "}
             Livre-se dos pelos indesejados com o método mais moderno e
-            tecnológico do mercado.
+            tecnológico do mercado. Não perca tempo!
           </p>
           <button onClick={botaoWhatsapp}>Whatsapp</button>
         </div>
