@@ -11,7 +11,7 @@
  .BoxText {
   width:80%;
 padding:5px 10px;
-margin-bottom:60px;
+
    align-items:center;
     font-size: 12px;
     text-align:center;
@@ -24,14 +24,11 @@ margin-bottom:60px;
 
 .containerRodape img{
     width:50%;
-    height: 70vh;
+  
     border-radius: 50%;
     transition: 2.0s;
     cursor:pointer;
 }
-.containerRodape img:hover{
- width: 65%;
- height:78vh;
-transform:2s;
 
-}
+
+
